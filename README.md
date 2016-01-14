@@ -1,2 +1,2 @@
-# BoGEMMS-eASTROGAM
-Collection of BoGEMMS configuration files for the eASTROGAM mission
+# BoGEMMS-ASTROGAM
+List of configuration and macro files for the BoGEMMS simulation of the ASTROGAM program
