@@ -1,0 +1,18 @@
+/run/verbose 0
+
+/gps/particle gamma
+/gps/pos/type Point
+/gps/pos/centre -38.375336 -38.375345 150.0 cm
+/gps/ang/type planar
+/gps/direction 0.35355336 0.35355344 -0.86602540
+
+# POW
+/gps/ene/type Pow
+/gps/ene/min 80.0 MeV
+/gps/ene/min 150.0 MeV
+/gps/ene/alpha -2
+
+
+/random/resetEngineFrom currentEvent.rndm
+/run/beamOn 10000
+/random/saveThisRun
