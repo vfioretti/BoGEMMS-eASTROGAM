@@ -9,7 +9,7 @@
 # POW
 /gps/ene/type Pow
 /gps/ene/min 80.0 MeV
-/gps/ene/min 150.0 MeV
+/gps/ene/max 150.0 MeV
 /gps/ene/alpha -2
 
 
