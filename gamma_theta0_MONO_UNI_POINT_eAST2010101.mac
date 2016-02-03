@@ -1,12 +1,8 @@
 /run/verbose 0
 
 /gps/particle gamma
-/gps/pos/type Plane
-/gps/pos/shape Square
-/gps/pos/centre  0.0, 0.0, 150.0 cm
-/gps/pos/halfx 46.0800 cm
-/gps/pos/halfy 46.0800 cm
-
+/gps/pos/type Point
+/gps/pos/centre -5.0 -7.0 150.0 cm
 /gps/ang/type planar
 /gps/direction 0.0 0.0 -1.0
 
