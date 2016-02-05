@@ -10,9 +10,14 @@
 /gps/ang/type planar
 /gps/direction 0.0 0.0 -1.0
 
-/gps/energy 100.0 MeV
+
+# POW
+/gps/ene/type Pow
+/gps/ene/min 7.5 MeV
+/gps/ene/max 15.0 MeV
+/gps/ene/alpha -2
 
 
 /random/resetEngineFrom currentEvent.rndm
-/run/beamOn 10000
+/run/beamOn 100000
 /random/saveThisRun

@@ -3,14 +3,18 @@
 /gps/particle gamma
 /gps/pos/type Plane
 /gps/pos/shape Square
-/gps/pos/centre  0.0 0.0 150.0 cm
+/gps/pos/centre 54.27092 0.0 150.0 cm
 /gps/pos/halfx 46.0800 cm
 /gps/pos/halfy 46.0800 cm
 
 /gps/ang/type planar
-/gps/direction 0.0 0.0 -1.0
+/gps/direction -0.50000001 -0.0000000 -0.86602540
 
-/gps/energy 100.0 MeV
+# POW
+/gps/ene/type Pow
+/gps/ene/min 80.0 MeV
+/gps/ene/max 150.0 MeV
+/gps/ene/alpha -2
 
 
 /random/resetEngineFrom currentEvent.rndm
