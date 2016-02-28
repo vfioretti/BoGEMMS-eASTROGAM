@@ -1,0 +1,18 @@
+/run/verbose 0
+
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 162.81279 0.0 150.0 cm
+/gps/pos/halfx 46.0800 cm
+/gps/pos/halfy 46.0800 cm
+
+/gps/ang/type planar
+/gps/direction -0.86602542 -0.0000000 -0.49999997
+
+/gps/energy 100.0 MeV
+
+
+/random/resetEngineFrom currentEvent.rndm
+/run/beamOn 10000
+/random/saveThisRun
