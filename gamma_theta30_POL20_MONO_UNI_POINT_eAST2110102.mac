@@ -6,7 +6,8 @@
 /gps/ang/type planar
 /gps/direction 0.35355336 0.35355344 -0.86602540
 
-/gps/polarization 0.066987193 -0.93301290 -0.35355290
+/gps/polarization -0.33359692 -0.81728694 -0.46984589 
+
 
 /gps/energy 100.0 MeV
 
